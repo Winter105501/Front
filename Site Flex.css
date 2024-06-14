@@ -1,0 +1,426 @@
+body{
+display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+
+#Lado{
+
+background-color: black;
+border: solid;
+height: 100vh;
+width: 15%;
+position:fixed;
+
+
+
+}
+
+#Welcome{
+
+    font-size: 60px;
+}
+
+#Botao{
+    color: white;
+border: none;
+background-color: #df0e62;
+border-radius: 100px;
+height: 50px;
+width: 150px;
+
+}
+
+#Botao2{
+    margin-top: 55px;
+    color: white;
+border: none;
+background-color: #df0e62;
+border-radius: 100px;
+height: 50px;
+width: 150px;
+}
+
+#Texto{
+    margin: 307px;
+text-align: center;
+align-items: center;
+height: 36vh;
+color: white;
+
+}
+
+#fundo_preto{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6px;
+    row-gap: 6px;
+justify-content: space-between;
+    background-color: black;
+    
+}
+
+#Testimonial_centro{
+text-align: center;
+position: absolute;
+top: 41%;
+margin-right: 400px;
+left: 30%;
+
+position: relative;
+
+}
+#Testimonial{
+    border: solid;
+    position: relative;
+    height: 110vh;
+    text-align: center;
+color: black;
+background-color: black;
+
+}
+
+#Testimonial_itens{
+position: relative;
+    bottom: 120%;
+    left:23%;
+}
+
+#TextoT{
+    width: 600px;
+    position: absolute;
+    right: 41%;
+    font-size: 15px;
+   top: 50%;
+}
+
+#Bola_rosa{
+border: none;
+height: 15px;
+width: 15px;
+border-radius: 100px;
+background-color: #df0e62;
+}
+
+#Botao_esquerda{
+
+position: absolute;
+right: 132.5%;
+top: 40%;
+
+}
+
+#Botao_direita{
+    
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    
+}
+
+#teste{
+    position: absolute;
+    border: none;
+    border-radius:100%;
+    height: 150px;
+    width: 150px;
+    left: -5%;
+    bottom: -10%;
+}
+
+
+#Titulo_Testimonial{
+    font-size: 60px;
+}
+
+#Biografia{
+    border: solid;
+background-color: #201c1c;
+height: 198vh;
+
+}
+
+#contact{
+    border: solid;
+background-color: #201c1c;
+height: 100vh;
+
+
+}
+
+
+#Biografia_texto{
+text-align: left;
+margin-left: 200px;
+}
+
+#Biografia_titulo{
+
+    font-size: 60px;
+}
+
+#Lista{
+    width: 800px;
+    height: 30vh;
+display: flex;
+justify-content: center;
+
+}
+#Blog{
+border: solid;
+background-color: black;
+height: 190vh;
+   
+}
+#Blog_texto{
+    display: flex;
+    flex-direction: column;
+    column-gap: 6px;
+    text-align: left;
+    margin-left: 200px;
+    
+}
+
+#Blog_titulo{
+
+    font-size: 60px;
+}
+
+#Blog_itens{
+    display: flex;
+position: relative;
+border: solid;
+
+}
+
+#Blog_H1{
+    color: white;
+    width: 800px;
+    position: absolute;
+    left: 28%;
+font-size: 25px;
+}
+
+#Blog_P{
+    color: #6e6958;
+    width: 500px;
+    position: absolute;
+    left: 28%;
+    top: 15%;
+
+}
+
+#Blog_P2{
+    color: #6e6958;
+    width: 500px;
+    position: absolute;
+    left: 28%;
+    top: 30%;
+
+}
+
+#Blog_P3{
+    color: #6e6958;
+    width: 500px;
+    position: absolute;
+    left: 28%;
+    top: 40%;
+
+}
+
+#numeros_total{
+color: #6e6958;
+display: flex;
+position: relative;
+
+}
+#numeros1{
+position: absolute;
+left: 28%;
+}
+
+#numeros2{
+position: absolute;
+left: 32%;
+
+}
+
+#numeros3{
+position: absolute;
+left: 36.5%;
+}
+
+
+#numeros4{
+position: absolute;
+left: 41.5%;
+}
+
+
+#numeros5{
+position: absolute;
+left: 46.5%;
+}
+
+#Texto_branco{
+color: white;
+}
+
+#Contact_texto{
+    text-align: left;
+    margin-left: 200px;
+    
+}
+
+#contact_texto{
+
+    font-size: 60px;
+}
+
+#First_Name{
+width:450px;
+}
+
+#Last_Name{
+    width:450px;
+    
+}
+
+#NameFL{
+display: flex;
+
+}
+
+
+
+#input{
+    background: none;
+    border: none;
+    width: 439px;
+    border-bottom: 2px solid gray;
+}
+
+#input2{
+    background: none;
+    border: none;
+    width: 465px;
+    border-bottom: 2px solid gray;
+}
+
+#input3{
+    background: none;
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid gray;
+}
+
+#Texto_cor_padrao{
+    color: #6e6958;
+
+}
+
+
+
+.span{
+
+    color: #df0e62;
+}
+
+
+.Ul{
+list-style-type: none;
+
+}
+.itens{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+
+}
+
+.Botao_testimonial{
+    background-color: #201c1c;
+    border: none;
+color: white;
+}
+
+.Texto_destaque{
+
+    color: white;
+}
+
+.Titulo{
+    margin: 20px;
+    color: white;
+height: 40px;
+}
+
+
+.Titulo02{
+    margin: 20px;
+    color: white;
+}
+
+.Meio{
+    display: flex;
+    margin-left: 242px;
+
+    position: relative;
+height: 500vh;
+background-image: url(Imagens/img_9.jpg.png);
+background-size: cover;
+background-attachment: fixed; 
+backdrop-filter: brightness(50%);
+
+}
+
+.Fundo_texto{
+   
+    flex-direction: column;
+    
+    width: 100%;
+    height: 100vh;
+    
+}
+.Botao_testimonial{
+width: 50px;
+height: 50px;
+border-radius: 100px;
+border: none;
+}
+
+.Imagens {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 33%;
+    
+}
+
+.Imagens img{ width: 100%;
+    height: 100%;
+object-fit: cover;
+transition: 0.5;
+}
+
+.Imagens:hover img {filter: brightness(50%);
+
+}
+
+.Imagens svg{
+position: absolute;
+top: 50.5%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+transition: 1s;
+}
+
+.Imagens:hover svg{
+
+ opacity: 1;
+}
